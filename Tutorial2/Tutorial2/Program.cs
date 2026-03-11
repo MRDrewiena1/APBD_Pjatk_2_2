@@ -17,5 +17,18 @@ static double CalculateAverage(int[] values)
     return sum / count;
 }
 
+static int CalculateMax(int[] values)
+{
+    var currMax = values[0];
+    foreach (var i in values)
+    {
+        if (currMax < i)
+            {
+            currMax = i;
+            }
+    }
+    return currMax;
+}
+
 int[] val = [2,3,4,1,4,5];
 Console.WriteLine(CalculateAverage(val));
