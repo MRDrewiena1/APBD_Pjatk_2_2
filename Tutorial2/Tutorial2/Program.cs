@@ -43,7 +43,7 @@ static int CalculateMin(int[] values)
     return currMin;
 }
 
-int[] val = [2,535,3,4,1,4,5,7,6,91,342,67];
-Console.WriteLine(CalculateAverage(val));
-Console.WriteLine(CalculateMax(val));
-Console.WriteLine(CalculateMin(val));
+int[] testVal = [2,535,3,4,1,4,5,7,6,91,342,67];
+Console.WriteLine(CalculateAverage(testVal));
+Console.WriteLine(CalculateMax(testVal));
+Console.WriteLine(CalculateMin(testVal));
