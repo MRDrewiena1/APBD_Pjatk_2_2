@@ -30,6 +30,19 @@ static int CalculateMax(int[] values)
     return currMax;
 }
 
+static int CalculateMin(int[] values)
+{
+    var currMin = values[0];
+    foreach (var i in values)
+        {
+        if (currMin > i)
+            {
+            currMin = i;
+            }
+        }
+    return currMin;
+}
+
 int[] val = [2,535,3,4,1,4,5,7,6,91,342,67];
 Console.WriteLine(CalculateAverage(val));
 Console.WriteLine(CalculateMax(val));
