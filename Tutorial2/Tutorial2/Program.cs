@@ -17,5 +17,5 @@ static double CalculateAverage(int[] values)
     return sum / count;
 }
 
-int[] val = [2,3,4,1,4,5];
+int[] val = [2,535,3,0,4,1,4,5,7];
 Console.WriteLine(CalculateAverage(val));
