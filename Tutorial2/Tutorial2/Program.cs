@@ -23,12 +23,13 @@ static int CalculateMax(int[] values)
     foreach (var i in values)
     {
         if (currMax < i)
-            {
+        {
             currMax = i;
-            }
+        }
     }
     return currMax;
 }
 
 int[] val = [2,3,4,1,4,5];
 Console.WriteLine(CalculateAverage(val));
+Console.WriteLine(CalculateMax(val));
