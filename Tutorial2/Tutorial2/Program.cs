@@ -30,6 +30,6 @@ static int CalculateMax(int[] values)
     return currMax;
 }
 
-int[] val = [2,535,3,0,4,1,4,5,7];
+int[] val = [2,535,3,4,1,4,5,7,6,91,342,67];
 Console.WriteLine(CalculateAverage(val));
 Console.WriteLine(CalculateMax(val));
