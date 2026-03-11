@@ -34,12 +34,12 @@ static int CalculateMin(int[] values)
 {
     var currMin = values[0];
     foreach (var i in values)
-        {
+    {
         if (currMin > i)
-            {
+        {
             currMin = i;
-            }
         }
+    }
     return currMin;
 }
 
